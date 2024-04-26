@@ -1,0 +1,24 @@
+server:
+  port: 8282
+
+spring:
+  application:
+    name: SpringSecurity
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springboot-security
+    username: fsk
+    password: pwd
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddlAuto: create-drop
+    showSql: true
+    properties:
+      hibernate:
+      #format_sql: true
+    database: postgresql
+    databasePlatform: org.hibernate.dialect.PostgreSQLDialect
+security:
+  jwt:
+    secretKey: 3cfa76ef14937c1c0ea519f8fc057a80fcd04a7420f8e8bcd0a7567c272e007b
+    expirationTime: 3600000

@@ -1,0 +1,21 @@
+POST /auth/signup
+Host: localhost:8282
+Content-Type: application/json
+
+{
+  "email": "furkankulaksiz@gmail.com",
+  "password": "123456",
+  "fullName": "Furkan Kulaksiz"
+}
+
+###
+
+POST /auth/signup
+Host: localhost:8282
+Content-Type: application/json
+
+{
+  "email": "fsk@gmail.com",
+  "password": "123456",
+  "fullName": "Furkan Sahin"
+}

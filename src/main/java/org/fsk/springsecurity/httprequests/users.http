@@ -1,0 +1,12 @@
+# /USERS/ME
+GET /users/me HTTP/1.1
+Host: localhost:8282
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImZ1cmthbmt1bGFrc2l6QGdtYWlsLmNvbSIsImlhdCI6MTcxNDAzNDExOSwiZXhwIjoxNzE0MDM3NzE5fQ.SQ6cVAGGOe810RP8ONUpBRzeKJpTIDn-DHvjojKxslY
+
+###
+
+# /USERS/
+GET /users/ HTTP/1.1
+Host: localhost:8282
+
+
